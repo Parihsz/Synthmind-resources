@@ -2,7 +2,7 @@ import os
 import openai
 from recording import *
 
-openai.api_key = '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'
+openai.api_key = 'api key here'
 
 memory = []
 
