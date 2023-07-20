@@ -5,11 +5,9 @@ from gtts import gTTS
 
 def transcribe_audio(audio_file):
     r = sr.Recognizer()
-
-    try:
+     try:
         with sr.AudioFile(audio_file) as source:
             audio = r.record(source)
-
         text = r.recognize_google(audio)
         return text
     except sr.UnknownValueError:
