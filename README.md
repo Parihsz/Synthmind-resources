@@ -1,2 +1,2 @@
 # SwiftAI
-SwiftAI is a project container powered by various OpenAI models.
+A few fun projects powered by OpenAI.
